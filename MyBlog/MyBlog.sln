@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBlog", "MyBlog\MyBlog.csproj", "{23FC760F-3B83-438C-A343-85F2A8E6173F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBlogStarter", "MyBlogStarter\MyBlogStarter.csproj", "{FDA53C12-5E5E-4269-9A88-F1CBD39419C8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBlogStarter.Domain", "MyBlogStarter.Domain\MyBlogStarter.Domain.csproj", "{0B0DD1F8-7831-4D24-99F7-5F3EC66B1B2F}"
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{23FC760F-3B83-438C-A343-85F2A8E6173F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{23FC760F-3B83-438C-A343-85F2A8E6173F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{23FC760F-3B83-438C-A343-85F2A8E6173F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{23FC760F-3B83-438C-A343-85F2A8E6173F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FDA53C12-5E5E-4269-9A88-F1CBD39419C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FDA53C12-5E5E-4269-9A88-F1CBD39419C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDA53C12-5E5E-4269-9A88-F1CBD39419C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
