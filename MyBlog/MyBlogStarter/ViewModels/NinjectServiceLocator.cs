@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyBlogStarter.Domain;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,7 @@ namespace MyBlogStarter.ViewModels
         {
             get
             {
-                throw new NotImplementedException("Je moet de klasse NinjectServiceLocator nog afmaken");
+                return new MainViewModel(new DummyBlogRepository());
             }
         }
     }

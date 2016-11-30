@@ -98,7 +98,12 @@
   <ItemGroup>
     <Resource Include="Resources\background.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\MyBlogStarter.Domain\MyBlogStarter.Domain.csproj">
+      <Project>{0b0dd1f8-7831-4d24-99f7-5f3ec66b1b2f}</Project>
+      <Name>MyBlogStarter.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
